@@ -39,3 +39,4 @@ spl_autoload_register(function ($class) {
         require $file;
     }
 });
+require('connect-php-sdk-master/autoload.php');
